@@ -3,7 +3,7 @@ Predicting Market Trends using Quantum Feature Engineering & VQC
 
 This repository contains a scientific poster titled:
 
-“Quantum Wave Forecast: Predicting Market Trends with Quantum Feature Engineering and Variational Quantum Classifier (VQC)”
+“Quantum Wave Forecast: Predicting Market Trends with Quantum Feature Engineering and Variational Quantum Classifier (VQC) ”
 
 Developed for the Amaravati Quantum Valley Hackathon 2025, the project explores a hybrid quantum-classical approach for financial market prediction.
 
