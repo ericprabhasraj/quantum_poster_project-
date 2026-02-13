@@ -1,47 +1,98 @@
-Quantum Wave Forecast: A Scientific Poster
-This repository contains the source code for a scientific poster titled "Quantum Wave Forecast: Predicting Market Trends with Quantum Feature Engineering and Variational Quantum Classifier (VQC)". The poster is presented as a single, self-contained HTML file styled with Tailwind CSS.
+🚀 Quantum Wave Forecast
+Predicting Market Trends using Quantum Feature Engineering & VQC
 
-Project Overview
-The project details a hybrid quantum-classical approach to forecast the direction of the FTSE 100 index. The core objective is to classify future market movements (Up or Down) by leveraging quantum computation, specifically the Quantum Fourier Transform (QFT) and a Variational Quantum Classifier (VQC), to uncover hidden patterns in financial time-series data.
+This repository contains a scientific poster titled:
 
-The poster is structured to present the project's introduction, methodology, results, and conclusions in a clear, academic format suitable for a conference or hackathon (Amaravati Quantum Valley Hackathon 2025).
+“Quantum Wave Forecast: Predicting Market Trends with Quantum Feature Engineering and Variational Quantum Classifier (VQC)”
 
-Technologies Used
-HTML: For the structure and content of the poster.
+Developed for the Amaravati Quantum Valley Hackathon 2025, the project explores a hybrid quantum-classical approach for financial market prediction.
 
-Tailwind CSS: For styling the poster to ensure a modern and responsive design.
+📌 Overview
 
-Google Fonts: Utilizes the 'Inter' font for clean and readable typography.
+Financial time-series prediction is challenging due to noisy, high-dimensional data.
+This project investigates whether quantum computing techniques can improve market direction forecasting.
 
-How to View the Poster
-Since this is a self-contained HTML file, you do not need a complex setup to view it.
+We propose a hybrid pipeline that:
 
-Download the File: Save the quantum_wave_forecast_poster.html file to your local machine.
+Applies Quantum Fourier Transform (QFT) for feature engineering
 
-Open in Browser: Right-click the file and choose "Open with" your favorite web browser (e.g., Chrome, Firefox, Safari, Edge).
+Uses a Variational Quantum Classifier (VQC) for binary classification
 
-For Developers (using VS Code)
-If you wish to edit the poster and see live updates:
+Predicts FTSE 100 index movement (Up/Down)
 
-Install the Live Server extension in Visual Studio Code.
+🧠 Methodology
 
-Open the quantum_wave_forecast_poster.html file in VS Code.
+The workflow consists of four stages:
 
-Right-click in the editor and select "Open with Live Server". This will open the poster in your browser and automatically refresh it when you save changes.
+Data Preprocessing
 
-Poster Sections
-The poster is divided into the following key sections across three columns:
+Historical FTSE 100 data
 
-Introduction: Outlines the challenge of market prediction and the project's objective.
+Feature scaling & time-series windowing
 
-Methodology & Workflow: Describes the four-stage hybrid quantum-classical pipeline.
+Quantum Feature Engineering
 
-Quantum Feature Extraction: Details the use of the Quantum Fourier Transform (QFT) for feature engineering.
+Classical-to-quantum data encoding
 
-The VQC Model: Explains the Variational Quantum Classifier and its training process.
+QFT-based transformation
 
-Results & Discussion: Presents the model's performance (58.7% accuracy) compared to a classical benchmark.
+Variational Quantum Classifier (VQC)
 
-Conclusion & Future Work: Summarizes the findings and suggests next steps.
+Parameterized quantum circuits
 
-References: Lists the academic sources cited in the project.
+Hybrid quantum-classical training
+
+Classical optimizer for parameter tuning
+
+Evaluation
+
+Accuracy-based comparison with classical baseline models
+
+📊 Results
+
+Quantum Model Accuracy: 58.7%
+
+Demonstrates feasibility of quantum-enhanced financial forecasting
+
+Competitive early-stage performance vs classical benchmark
+
+🛠 Tech Stack
+
+HTML5 – Poster structure
+
+Tailwind CSS – Modern, responsive styling
+
+Google Fonts (Inter) – Typography
+
+The project is delivered as a single self-contained HTML file.
+
+📂 How to Use
+🔹 View Poster
+
+Download quantum_wave_forecast_poster.html
+
+Open in any modern browser
+
+🔹 Edit with VS Code
+
+Install Live Server
+
+Open the file
+
+Run with Live Server for auto-refresh
+
+🔮 Future Improvements
+
+Larger datasets
+
+Deeper variational circuits
+
+Quantum kernel methods
+
+Benchmarking against LSTM / XGBoost
+
+Testing on real quantum hardware
+
+📎 License
+
+Open for academic and research purposes.
